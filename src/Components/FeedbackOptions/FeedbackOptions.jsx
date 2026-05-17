@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import './FeedbackOptions.css'
 
 class FeedbackOptions extends Component {
     render() {
@@ -9,7 +10,7 @@ class FeedbackOptions extends Component {
             <div>
                 {options.map((item) => {
                     return (
-                        <button key={item} onClick={() => onLeaveFeedback(item)} type='button'>{item}</button>
+                        <button className="feedback-option" key={item} onClick={() => onLeaveFeedback(item)} type='button'>{item}</button>
                     )
                 })}
             </div>

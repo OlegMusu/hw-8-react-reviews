@@ -1,0 +1,19 @@
+.feedback-option {
+    margin: 10px 5px;
+    padding: 4px 14px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.feedback-option:hover {
+    background-color: #5c5c5c;
+    transform: translateY(2px);
+}
+
+.feedback-option:active {
+    background-color: #414141;
+    transform: translateY(-1px);
+}
