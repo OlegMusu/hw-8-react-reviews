@@ -13,8 +13,8 @@ class App extends Component {
   }
 
   countTotalFeedback = () => {
-    const {good, neutral, bad} = this.state
-    return good + neutral + bad
+    const {good, bad} = this.state
+    return good + bad
   }
 
   handleCount = (type) => {
